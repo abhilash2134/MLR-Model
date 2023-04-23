@@ -1,5 +1,12 @@
 # MLR-Model
-The data-file consists of randomn data with column name X1-X23
+The data-file consists of averaged online sensor data with column name X1-X23 and response lab values Y1 and Y2
 
-Run the main.py to check various correlations using 4 MLR models, SVR and GPR models
-Preddictors can be changed in Line 37 and Responses can be changed in Line 38
+SoftSensorsInlet.py
+Generates models based on the equations described in Eq 1-3 for total phosphorus inlet
+
+SoftSensorsOutletStatic.py
+Generates models based on the equations described in Eq 1-3 for total phosphorus outlet
+
+SoftSensorsOutletDynamic.py
+Generates models based on the equations described in Eq 4 for total phosphorus outlet. 
+
