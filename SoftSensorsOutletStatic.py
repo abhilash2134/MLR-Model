@@ -37,7 +37,7 @@ class ModelComparison:
         data = pd.read_csv(path_data)
         
         Predictors = ['X1', 'X3', 'X4', 'X5']
-        Response   = ['X7']
+        Response   = ['Y2']
         
         data_relevant = data[[*Predictors, *Response]].dropna()
         self.x_y = data_relevant[Predictors]
